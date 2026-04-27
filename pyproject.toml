@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cadeqs"
+version = "0.1.0"
+description = "Official implementation of SIGIR 2026 CADEQS"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "sentencepiece==0.2.1",
+  "numpy==2.0.2",
+  "torch==2.8.0",
+  "transformers==4.57.6",
+  "tqdm==4.67.3",
+  "polars==1.36.1",
+  "sentence-transformers==5.1.2",
+  "datasets==4.5.0",
+  "peft==0.17.1",
+  "trl==0.19.1",
+  "bm25s==0.3.3",
+  "bert-score==0.3.13",
+  "codecarbon==3.2.3",
+  "optimum[onnxruntime-gpu]==2.1.0",
+  "faiss-gpu-cu12>=1.10.0",
+  "bitsandbytes",
+  "fugashi==1.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.11.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["cadeqs*"]
