@@ -1,4 +1,7 @@
 # CADEQS
+
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3805712.3809694-blue)](https://doi.org/10.1145/3805712.3809694)
+[![Paper](https://img.shields.io/badge/SIGIR-2026-red)](https://dl.acm.org/doi/10.1145/3805712.3809694)
  
 This repository contains materials developed by LY Corporation and is temporarily open-sourced as the official implementation of our SIGIR 2026 paper.
  
