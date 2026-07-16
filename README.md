@@ -5,14 +5,14 @@
  
 This repository contains materials developed by LY Corporation and is temporarily open-sourced as the official implementation of our SIGIR 2026 paper.
  
-- **Temporary Release**: This repository is temporarily available as open-source. Therefore this repository may be turn into read-only or private anytime.
+- **Temporary Release**: This repository is temporarily available as open-source. Therefore this repository may be turned into read-only or private anytime.
 - **Attribution**: All code and materials in this repository are owned by LY Corporation.
  
 
 ## Project Overview
 
 This repository is the official implementation of our SIGIR 2026 paper:
-**"Recasting Web-Scale Query Suggestion as Dense Retrieval: Efficient, Up-to-Date, and Context-Aware Suggestions."**
+**"Recasting Web-Scale Query Suggestion as dense retrieval: Efficient, Up-to-Date, and Context-Aware Suggestions."**
 
 In this work, we reframe web-scale query suggestion as **dense retrieval** (instead of generation) to jointly address three practical requirements: **low latency**, **reflection of evolving information**, and **session context awareness**.
 
@@ -58,7 +58,7 @@ https://docs.vllm.ai/en/latest/getting_started/installation/
 
 #### Usage
 
-Run a CADEQS pipeline on AOL-stle query logs:
+Run a CADEQS pipeline on AOL-style query logs:
 
 ```bash
 # 1) Preprocess AOL-style logs
