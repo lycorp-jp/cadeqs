@@ -25,13 +25,21 @@ The method is referred to as **CADE-QS** in the SIGIR 2026 paper.
 If you use this repository, please cite:
 
 ```bibtex
-@inproceedings{recasting_qs_sigir2026,
-  title     = {Recasting Web-Scale Query Suggestion as dense retrieval: Efficient, Up-to-Date, and Context-Aware Suggestions},
+@inproceedings{10.1145/3805712.3809694,
   author    = {Nishikawa, Sosuke and Yoshinaga, Naoki and Kaji, Nobuhiro},
-  booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  title     = {Recasting Web-Scale Query Suggestion as dense retrieval: Efficient, Up-to-Date, and Context-Aware Suggestions},
   year      = {2026},
+  isbn      = {9798400725999},
   publisher = {Association for Computing Machinery},
-  series = {SIGIR '26}
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3805712.3809694},
+  doi       = {10.1145/3805712.3809694},
+  booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages     = {1416--1428},
+  numpages  = {13},
+  keywords  = {query suggestion, dense retrieval, efficiency},
+  location  = {Melbourne, VIC, Australia},
+  series    = {SIGIR '26}
 }
 ```
 
